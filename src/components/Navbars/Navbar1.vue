@@ -71,6 +71,7 @@ export default {
   margin-top: 5%;
 }
 .title{
+  
     width: 100%;
     margin-left: auto;
     margin-right: auto;
