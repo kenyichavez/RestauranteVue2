@@ -9,7 +9,7 @@
     </button>
     <div class="collapse navbar-collapse d-flex justify-content-around align-items-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <router-link to="/" class="nav-link">Home</router-link>
+        <router-link to="/" class="nav-link">Vistas</router-link>
         
         <router-link to="/about" class="nav-link">About</router-link>
         <router-link to="/gallery" class="nav-link">Gallery</router-link>
