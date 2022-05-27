@@ -2,21 +2,18 @@
     
          <div class="container-nav2 position-absolute">
         <div class="container ml-auto mr-auto position-relative">
-          <router-link to="/" class="navbar-brand text-white px-1"
+          <router-link to="/event" class="navbar-brand text-white px-1"
             >EVENTS</router-link
           >
 
-          <router-link to="/About" class="navbar-brand text-white px-1"
-            >RESERVATIONS</router-link
+          <router-link to="/gallery" class="navbar-brand text-white px-1"
+            >GALLERY</router-link
           >
 
-          <router-link to="/gallery" class="navbar-brand text-white px-1"
+          <router-link to="/menu" class="navbar-brand text-white px-1"
             >MENU
           </router-link>
 
-          <router-link to="/gallery" class="navbar-brand text-white px-1"
-            >GALLERY
-          </router-link>
         </div>
       </div>
     

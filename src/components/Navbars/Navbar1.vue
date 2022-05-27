@@ -11,16 +11,11 @@
             >ABOUT US</router-link
           >
 
-          <router-link to="/gallery" class="navbar-brand text-white px-1"
+          <router-link to="/Contact" class="navbar-brand text-white px-1"
             >CONTACT
           </router-link>
-        </div>
-        
-       
+        </div>   
       </div>
-       <div class="title position-relative">
-          <Title/>
-        </div>
     </div>
 
     <div>
@@ -31,13 +26,12 @@
 
 <script>
 import Navbar2 from '@/components/Navbars/Navbar2'
-import Title from '@/components/Title/Title.vue'
 
 export default {
   name: "Navbar1",
   components: {
     Navbar2,
-    Title
+    
   },
 
   data() {
@@ -54,7 +48,7 @@ export default {
 .opaco {
   width: 50%;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-  height: 100vh;
+  
 }
 .conten {
   width: 100%;
