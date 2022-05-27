@@ -7,7 +7,7 @@
 <script>
 import Nav1 from '@/components/Navbars/Navbar1.vue'
 export default {
-    name: 'RestauranteVue2NavPrincip',
+    name: 'NavPrincipal',
     components:{
         Nav1
     },
