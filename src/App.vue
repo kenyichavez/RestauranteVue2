@@ -1,30 +1,27 @@
 <template>
   <div id="app">
-   
-       <NavPrincipal></NavPrincipal>
+    <Navbar></Navbar>
     <router-view/>
   </div>
 </template>
 <script>
-import NavPrincipal from '@/views/NavbarView/NavPrincipal'
+import Navbar from '@/components/Navbar.vue'
 export default {
   name: 'App',
   components: {
-   NavPrincipal
+    Navbar,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+:root{
+  --buttonPrimario: rgb(255, 247, 0);
+  --buttonSecundario: rgb(174, 168, 0);
 }
-
-
-
-
+*{
+  font-family: 'Concert One', cursive;
+}
 </style>
