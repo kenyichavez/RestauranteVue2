@@ -37,7 +37,7 @@
     </div>
     <div class="caja-home row m-5 p-2 ">
       <div class="col-md-5 p-0 order-md-1">
-        <img src="@/assets/pollo-brasa.jpg" class="img-fluid" alt="" />
+        <img src="@/assets/lomo-saltado.jpg" class="img-fluid" alt="" />
       </div>
       <div class="col-md-7 px-3 order-md-2 text-center d-flex flex-column justify-content-center align-items-center">
         <p class="titulo ">
@@ -54,7 +54,7 @@
     </div>
     <div class="caja-home row m-5 p-2 ">
       <div class="col-md-5 p-0 order-md-2">
-        <img src="@/assets/pollo-brasa.jpg" class="img-fluid" alt="" />
+        <img src="@/assets/fideos.jpg" class="img-fluid " alt="" />
       </div>
       <div class="col-md-7 px-3 order-md-1 text-center d-flex flex-column justify-content-center align-items-center">
         <p class="titulo ">
@@ -90,7 +90,14 @@ export default {
   background: rgb(0, 0, 0);
   color: #fff;
 }
-
+img{
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width:100%;
+  height:300px;
+  padding: 5px;
+}
 .button{
   background-color: var(--buttonSecundario);
   color: #000;
@@ -104,6 +111,7 @@ export default {
   border: 1px solid rgb(255, 255, 255) !important;
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgb(191, 191, 191);
+  overflow: hidden;
 }
 
 .titulo{

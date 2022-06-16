@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-md fixed-top">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon bg-white"><i class="fa-solid fa-bars mt-1"></i></span>
+      <span class="navbar-toggler-icon bg-white rounded"><i class="fa-solid fa-bars mt-1"></i></span>
     </button>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
