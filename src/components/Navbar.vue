@@ -7,12 +7,11 @@
       <span class="navbar-toggler-icon bg-white rounded"><i class="fa-solid fa-bars mt-1"></i></span>
     </button>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">POLLERIA</h5>
+      <div class="offcanvas-header pb-0">
         <button type="button" class=" button btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-circle-xmark"></i></button>
         
       </div>
-      <div class="offcanvas-body">
+      <div class="offcanvas-body m-0 p-0">
         <div class="navbar-nav ">
         <router-link to="/" class="nav-link mx-3">HOMEPAGE</router-link>
         <router-link to="/about" class="nav-link mx-3">ABOUT</router-link>
@@ -52,6 +51,7 @@ export default {
 *{
   display: flex;
   justify-content: center;
+  align-items: center
 }
 .navbar{
     background-color: rgba(0, 0, 0, 0.567) !important;
@@ -68,13 +68,15 @@ export default {
   transform: scale(1.3);
 }
 .navbar-toggler{
-    background-color: rgba(0, 0, 0, 0.567) !important;
+    background-color: rgba(255, 255, 255, 0.625) !important;
     border: none !important;
     margin: 0;
     padding: 0;
+    color:rgb(0, 0, 0);
 }
 .button{
   color: #fff;
+  margin-left: 150px;
 }
 @media screen and (max-width:768px) {
 *{
@@ -89,7 +91,7 @@ export default {
 }
 .offcanvas {
     width: 200px;
-    height: 350px;
+    height: 300px;
     background-color: rgba(0, 0, 0, 0.567) !important;
 }
 }
