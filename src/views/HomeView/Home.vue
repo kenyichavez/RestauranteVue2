@@ -15,7 +15,7 @@
           alias quas. Nostrum obcaecati eum consequatur assumenda sunt doloribus
           consectetur.
         </p>
-        <button class="button"> Click me </button>
+        <button class="button"> Click me</button>
       </div>
     </div>
     <div class="caja-home row m-5 p-2 ">
@@ -98,14 +98,39 @@ img{
   height:300px;
   padding: 5px;
 }
-.button{
-  background-color: var(--buttonSecundario);
-  color: #000;
+button {
   border-radius: 10px;
+  background-color: var(--buttonSecundario);
+  color: rgb(0, 0, 0);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
   padding: 5px 10px;
 }
+
+.button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  right: -10px;
+  transition: 1s;
+}
+
 .button:hover{
+  padding-right: 24px;
+  padding-left:8px;
   background-color: var(--buttonPrimario)
+}
+
+.button:hover:after {
+  opacity: 1;
+  right: 8px;
 }
 .caja-home{
   border: 1px solid rgb(255, 255, 255) !important;
