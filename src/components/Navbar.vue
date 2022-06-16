@@ -9,7 +9,7 @@
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">POLLERIA</h5>
-        <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-circle-xmark"></i></button>
+        <button type="button" class=" button btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-circle-xmark"></i></button>
         
       </div>
       <div class="offcanvas-body">
@@ -73,10 +73,11 @@ export default {
     margin: 0;
     padding: 0;
 }
-
+.button{
+  color: #fff;
+}
 @media screen and (max-width:768px) {
 *{
-  display: block;
   background:none !important;
 }
 .container-fluid{
